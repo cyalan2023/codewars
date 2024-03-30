@@ -10,6 +10,8 @@
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 // Your function should only return a number, not the explanation about how you get that number.
+
+
 function getSum(a, b) {
     let sum = 0
     let a1 = Math.min(a, b)
